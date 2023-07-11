@@ -1,0 +1,228 @@
+/* ====================common css start============================ */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Lato;
+}
+.container{
+    width: 1440px;
+    margin: 0px auto;
+}
+.title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+.title_diskripson{
+    color:#272727;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    text-align: center;
+}
+.btn{
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #E55473;
+    border-radius: 8px; 
+    border: none;
+    cursor: pointer;
+}
+/* ====================common css end============================ */
+/* ====================banner_part start============================ */
+header{
+    background: rgba(229, 84, 115, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+#banner-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 178px;
+}
+#banner-part .text h1{
+    width: 708px; 
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+#banner-part .text .title_diskripson{
+    width: 634px;
+    padding: 32px 0px;
+}
+#banner-part .imgs img{
+    width: 635px;
+height: 800px; 
+}
+/* ====================banner_part end============================ */
+/* ====================our-featured start============================ */
+#our-featured .width_sat{
+    width: 594px; 
+    margin:24px auto 48px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.main .flower-tree p{
+    text-align: center;
+    margin: 32px 0px 128px 0px;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+.main .flower-tree .imgbackground{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.imgbg1{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.imgbg2{
+ background-color:rgba(5, 151, 160, 0.15);
+}
+.imgbg3{
+background-color:rgba(71, 125, 17, 0.15);
+}
+.main .flower-tree .imgbackground .img1{
+    padding-top: 110px;
+}
+.main .flower-tree .imgbackground .img2{
+    padding-top: 117px;
+}
+.main .flower-tree .imgbackground .img3{
+    padding-top: 110px;
+}
+/* ====================our-featured end============================ */
+/* ====================same-day start============================ */
+.container #same-day {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 87px 0px 86px 0;
+    border-radius: 8px;
+    margin-bottom: 128px;
+}
+/* ====================same-day end============================ */
+/* ====================hot-deal start============================ */
+#hot-deal {
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 0px ;
+    margin: 128px 0px;
+}
+#hot-deal .container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#hot-deal .container .text .title_diskripson{
+    width: 594px;
+    margin: 24px 0px 32px;
+}
+#hot-deal .container img{
+    padding-left: 186px;
+}
+/* ====================hot-deal end============================ */
+/* ====================Instagram start============================ */
+.container #instagram .title_diskripson{
+    width: 594px;
+    margin: 24px auto 48px; 
+}
+.container #instagram .imags{
+    display: flex;
+    justify-content: space-between;
+}
+/* ====================Instagram end============================ */
+/* ====================get start============================ */
+#get .container{
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 128px auto ;
+    padding: 122px 0px 121px 0px;
+    border-radius: 8px;
+}
+#get .container form{
+    text-align: center;
+}
+#get .container form input{
+    padding: 23px 513px 22px 22px;
+    margin-right:16px;
+    border-radius: 8px;
+    border: none;
+}
+/* ====================get end============================ */
+/* ==================== ============================ */
+.container #bonuses{
+    display: flex;
+    margin-bottom: 128px;
+    background: url("../img/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 200px  8px 200px  8px;
+}
+.container #bonuses .pofile img{
+    border-radius: 200px;
+    border: 1px solid #E55473 ;
+}
+.container #bonuses .text .btn{
+    margin-left: 450px;
+    margin-top: 20px;
+}
+/* ================================================ */
+/* ====================footer start============================ */
+footer{
+    background-color: black;
+    padding: 128px 0px;
+}
+footer .title{
+    color: #FFF;
+}
+footer .title span{
+    color: #E55473;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+footer .title_diskripson{
+    width: 625px; 
+    margin: 24px auto 32px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+footer .copright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+/* ====================footer end============================ */
